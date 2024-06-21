@@ -1,0 +1,295 @@
+{
+	"info": {
+		"_postman_id": "7d811190-7b46-4367-b384-5ea263e2ee9c",
+		"name": "Refund Details",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25479697",
+		"_collection_link": "https://gold-moon-293474.postman.co/workspace/Riyaz-Workplace~75cc7567-b0d3-445a-8521-2bb89813febc/collection/25479697-7d811190-7b46-4367-b384-5ea263e2ee9c?action=share&source=collection_link&creator=25479697"
+	},
+	"item": [
+		{
+			"name": "Refunds",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{domain}}/ds/campusnexus/Refunds",
+					"protocol": "https",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"Refunds"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Refunds by Id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{domain}}/ds/campusnexus/Refunds(22)",
+					"protocol": "https",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"Refunds(22)"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RefundCheckRegisters",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{domain}}/ds/campusnexus/RefundCheckRegisters",
+					"protocol": "https",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"RefundCheckRegisters"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RefundCheckRegisters by Id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{domain}}/ds/campusnexus/RefundCheckRegisters(8)",
+					"protocol": "https",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"RefundCheckRegisters(8)"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RefundCalculationStatuses",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{domain}}/ds/campusnexus/RefundCalculationStatuses",
+					"protocol": "https",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"RefundCalculationStatuses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RefundCalculationStatuses by Id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{domain}}/ds/campusnexus/RefundCalculationStatuses(1)",
+					"protocol": "https",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"RefundCalculationStatuses(1)"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RefundCreditCardAmounts",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{domain}}/ds/campusnexus/RefundCreditCardAmounts",
+					"protocol": "https",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"ds",
+						"campusnexus",
+						"RefundCreditCardAmounts"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "domain",
+			"value": "$domain",
+			"type": "string"
+		},
+		{
+			"key": "username",
+			"value": "$username",
+			"type": "string"
+		},
+		{
+			"key": "password",
+			"value": "$password",
+			"type": "string"
+		}
+	]
+}
